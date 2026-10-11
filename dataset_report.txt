@@ -1,0 +1,27 @@
+DATASET SIZE
+(911, 12)
+
+COLUMN NAMES
+['ID', 'date', 'meals_served', 'kitchen_staff', 'temperature_C', 'humidity_percent', 'day_of_week', 'special_event', 'past_waste_kg', 'staff_experience', 'waste_category', 'food_waste_kg']
+
+FIRST FIVE ROWS
+   ID        date  meals_served  kitchen_staff  temperature_C  humidity_percent  day_of_week  special_event  past_waste_kg staff_experience waste_category  food_waste_kg
+0   0  2022-12-19           196             13      27.887273         45.362854            0              0       7.740587     intermediate          dairy      28.946465
+1   1  2023-11-21           244             15      10.317872         64.430475            1              0      42.311779              NaN           MeAt      51.549053
+2   4  2022-02-01           148             16      27.714300         69.046113            1              0      41.184305         Beginner           MeAt      53.008323
+3   5  2023-03-19           157             19      19.173902         46.292823            6              0      41.543492         Beginner           MeAt      48.621527
+4   6  2022-07-18           297             10      26.375233         79.741064            0              0      26.525097     Intermediate           MEAT      44.156984
+
+MISSING VALUES
+ID                    0
+date                  0
+meals_served          0
+kitchen_staff         0
+temperature_C         0
+humidity_percent      0
+day_of_week           0
+special_event         0
+past_waste_kg         0
+staff_experience    164
+waste_category        0
+food_waste_kg         0
